@@ -12,7 +12,7 @@ import jwt from 'jsonwebtoken';
 
 const app = express()
 app.use(cors({
-    origin: 'http://192.168.1.7:3000',
+    origin: 'http://192.168.1.5:3000',
     credentials: true
 }));
 const secretKey = 'your_secret_key';
